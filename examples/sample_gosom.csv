@@ -1,0 +1,12 @@
+input_id,link,title,category,address,website,phone,review_count,review_rating
+q1,https://maps.google.com/?cid=1,Spice Junction,Indian restaurant,"12, MG Road, Bengaluru, Karnataka 560001, India",https://WWW.SpiceJunction.example/menu,098765 43210,1234,4.500000
+q1,https://maps.google.com/?cid=2,Spice Junction MG Road,Indian restaurant,"12, MG Road, Bengaluru, Karnataka 560001, India",,9876543210,1200,4.400000
+q1,https://maps.google.com/?cid=3,Spice Junction,Indian restaurant,"12, MG Road, Bengaluru, Karnataka 560001, India",,080 1111 2222,,
+q2,https://maps.google.com/?cid=4,,Cafe,"5, Church Street, Bengaluru, Karnataka 560001, India",,,,
+q3,https://maps.google.com/?cid=5,Harbour Coffee Co,Cafe,"Shop 4, 100 Feet Road, Indiranagar, Bengaluru, Karnataka 560038, India",harbourcoffee.example,+91 80 4123 4567,3,3.800000
+q3,https://maps.google.com/?cid=6,Harbour Coffee,Cafe,"Shop 4, 100 Feet Road, Indiranagar, Bengaluru, Karnataka 560038, India",,080 4123 4567,,
+q4,https://maps.google.com/?cid=7,City Tiffin Service,Tiffin service,"Flat 2, Andheri West, Mumbai, Maharashtra 400053, India",citytiffin.example,12345,0,
+q5,https://maps.google.com/?cid=8,Weave House,Clothing store,"T Nagar, Chennai, Tamil Nadu 600017, India",http://WeaveHouse.example/,+91 44 2345 6789,987,4.200000
+q6,https://maps.google.com/?cid=9,Bake Alley,Bakery,"Linking Road, Bandra West, Mumbai, Maharashtra 400050, India",,022 2655 1234,900,4.700000
+q7,https://maps.google.com/?cid=10,Delta Dental Clinic,Dentist,"22, Connaught Place, New Delhi, Delhi 110001, India",https://Example.COM/path,011 2345 6789,250,4.100000
+q8,https://maps.google.com/?cid=11,Petal and Stem,Florist,"5, Church Street, Bengaluru, Karnataka 560001, India",,9999999999,10,4.0

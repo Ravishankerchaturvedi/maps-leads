@@ -1,0 +1,30 @@
+[
+  {
+    "input_id": "q8",
+    "title": "Kolkata Kati Roll",
+    "category": "Fast food restaurant",
+    "address": "Park Street, Kolkata, West Bengal 700016, India",
+    "web_site": "HTTPS://WWW.KolkataKati.Example/order",
+    "phone": "033 4000 5000",
+    "review_count": 321,
+    "review_rating": 4.3,
+    "complete_address": {
+      "borough": "",
+      "street": "Park Street",
+      "city": "Kolkata",
+      "postal_code": "700016",
+      "state": "West Bengal",
+      "country": "India"
+    }
+  },
+  {
+    "input_id": "q9",
+    "title": "Pune Paratha House",
+    "category": "Vegetarian restaurant",
+    "address": "FC Road, Shivajinagar, Pune, Maharashtra 411005, India",
+    "web_site": "",
+    "phone": "020 2555 6677",
+    "review_count": 77,
+    "review_rating": 4.0
+  }
+]

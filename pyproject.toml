@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maps-leads"
+version = "0.1.0"
+description = "Turn raw Google Maps scraper exports into a clean, deduplicated 8-column lead CSV: E.164 phones, normalised websites, derived cities. Reads the CSV, JSON or JSONL that gosom/google-maps-scraper writes; standard library only."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Ravi Shanker Chaturvedi" }]
+keywords = ["google-maps", "lead-generation", "lead-cleaning", "data-cleaning", "csv", "deduplication", "e164", "phone-numbers", "gosom", "scraper-output", "sales-prospecting", "local-seo", "cli", "python"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Information Technology",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Office/Business",
+  "Topic :: Text Processing",
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Ravishankerchaturvedi/maps-leads"
+Issues = "https://github.com/Ravishankerchaturvedi/maps-leads/issues"
+Changelog = "https://github.com/Ravishankerchaturvedi/maps-leads/blob/main/CHANGELOG.md"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+maps-leads = "maps_leads.cli:main"
+
+[tool.setuptools]
+packages = ["maps_leads"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
